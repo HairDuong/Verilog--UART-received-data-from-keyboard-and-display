@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Jul 11 16:03:32 2025
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : UART_RX
+Top-level Entity Name : UART_RX
+Family : Cyclone 10 LP
+Total logic elements : 1,246
+    Total combinational functions : 677
+    Dedicated logic registers : 972
+Total registers : 972
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 5,248
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

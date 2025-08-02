@@ -1,0 +1,15 @@
+
+State Machine - |UART_RX|state
+Name state.11 state.10 state.01 state.00 
+state.00 0 0 0 0 
+state.01 0 0 1 1 
+state.10 0 1 0 1 
+state.11 1 0 0 1 
+
+State Machine - |UART_RX|led_driver_4digit_595:led_display|state
+Name state.LATCH_HI state.SHIFT_LO state.SHIFT_HI state.IDLE state.LATCH_LO 
+state.IDLE 0 0 0 0 0 
+state.SHIFT_HI 0 0 1 1 0 
+state.SHIFT_LO 0 1 0 1 0 
+state.LATCH_HI 1 0 0 1 0 
+state.LATCH_LO 0 0 0 1 1 
